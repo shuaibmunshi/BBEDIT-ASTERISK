@@ -7,3 +7,7 @@ Language module for Asterisk (Digium)
 
 See http://www.barebones.com/support/bbedit/plugin_library.html for more installation instructions
 This may work with Textwrangler as well but I have not tested it.
+
+[![alt text][1]
+
+  [1]: https://i.imgur.com/AyKn4yv.png
