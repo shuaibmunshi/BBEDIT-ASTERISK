@@ -1,0 +1,273 @@
+<!-- Asterisk Language Module for BBEDIT 11 -->
+<!-- version 1.0 -->
+<!-- January 2016 -->
+<!-- Created by Shuaib Munshi -->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BBEditDocumentType</key>
+	<string>CodelessLanguageModule</string>
+	<key>BBLMColorsSyntax</key>
+	<true/>
+	<key>BBLMIsCaseSensitive</key>
+	<true/>
+	<key>BBLMLanguageCode</key>
+	<string>AstX</string>
+	<key>BBLMLanguageDisplayName</key>
+	<string>Asterisk</string>
+	<key>BBLMScansFunctions</key>
+	<true/>
+	
+	<key>BBLMSuffixMap</key>
+	<array>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.conf</string>
+			<key>BBLMCanResolveIncludeFiles</key>
+			<false/>
+		</dict>
+	</array>
+	<key>Language Features</key>
+	<dict>
+		
+		<key>Identifier and Keyword Characters</key>
+		<string>0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz:@</string>
+	
+		<key>Open Strings 1</key>
+		<string>[</string>
+		<key>Close Strings 1</key>
+		<string>]</string>
+		
+		<key>Prefix for Functions</key>
+		<string>[</string>
+
+		<key>End-of-line Ends Strings 1</key>
+		<false/>
+		
+		<key>Open Line Comments</key>
+		<string>;</string>
+		
+		<key>Open Strings 2</key>
+		<string>${</string>
+		<key>Close Strings 2</key>
+		<string>}</string>
+		<key>End-of-line Ends Strings 2</key>
+		<false/>
+		
+		<key>Open Statement Blocks</key>
+		<string>${</string>
+		<key>Close Statement Blocks</key>
+		<string>}</string>
+		
+	</dict>
+	<key>BBLMKeywordList</key>
+	<array>
+		<string>AbsoluteTimeout</string>
+		<string>AddQueueMember</string>
+		<string>ADSIProg</string>
+		<string>Asterisk</string>
+		<string>AgentCallbackLogin</string>
+		<string>AgentLogin</string>
+		<string>AgentMonitorOutgoing</string>
+		<string>AGI</string>
+		<string>AlarmReceiver</string>
+		<string>ALSAMonitor</string>
+		<string>AMD</string>
+		<string>Answer</string>
+		<string>AppendCDRUserField</string>
+		<string>Authenticate</string>
+		<string>BackGround</string>
+		<string>BackgroundDetect</string>
+		<string>Bridge</string>
+		<string>Busy</string>
+		<string>CallingPres</string>
+		<string>ChangeMonitor</string>
+		<string>ChanIsAvail</string>
+		<string>ChannelRedirect</string>
+		<string>ChanSpy</string>
+		<string>CheckGroup</string>
+		<string>ClearHash</string>
+		<string>ConfBridge</string>
+		<string>Congestion</string>
+		<string>ContinueWhile</string>
+		<string>ControlPlayback</string>
+		<string>Curl</string>
+		<string>Cut</string>
+		<string>DAHDIBarge</string>
+		<string>DAHDIRAS</string>
+		<string>DAHDIScan</string>
+		<string>DAHDISendKeypadFacility</string>
+		<string>DateTime</string>
+		<string>DBdel</string>
+		<string>DBdeltree</string>
+		<string>DBget</string>
+		<string>DBput</string>
+		<string>DBQuery</string>
+		<string>DBRewrite</string>
+		<string>DeadAGI</string>
+		<string>Dial</string>
+		<string>Dictate</string>
+		<string>DigitTimeout</string>
+		<string>Directory</string>
+		<string>DISA</string>
+		<string>DTMFToText</string>
+		<string>DumpChan</string>
+		<string>DUNDiLookup</string>
+		<string>EAGI</string>
+		<string>Echo</string>
+		<string>EndWhile</string>
+		<string>EnumLookup</string>
+		<string>Exec</string>
+		<string>ExecIf</string>
+		<string>ExecIfTime</string>
+		<string>ExitWhile</string>
+		<string>ExtenSpy</string>
+		<string>ExternIVR</string>
+		<string>Festival</string>
+		<string>Flash</string>
+		<string>Flite</string>
+		<string>ForkCDR</string>
+		<string>GetCPEID</string>
+		<string>GetGroupCount</string>
+		<string>GetGroupMatchCount</string>
+		<string>Gosub</string>
+		<string>GosubIf</string>
+		<string>Goto</string>
+		<string>GotoIf</string>
+		<string>GotoIfTime</string>
+		<string>Hangup</string>
+		<string>HasNewVoicemail</string>
+		<string>Asterisk</string>
+		<string>ICES</string>
+		<string>ImportVar</string>
+		<string>Asterisk</string>
+		<string>JabberJoin</string>
+		<string>Asterisk</string>
+		<string>JabberSend</string>
+		<string>Asterisk</string>
+		<string>JabberStatus</string>
+		<string>Jack</string>
+		<string>KeepAlive</string>
+		<string>Log</string>
+		<string>LookupBlacklist</string>
+		<string>LookupCIDName</string>
+		<string>Macro</string>
+		<string>MacroExclusive</string>
+		<string>MacroExit</string>
+		<string>Asterisk</string>
+		<string>MailboxExists</string>
+		<string>Math</string>
+		<string>MeetMe</string>
+		<string>MeetMeAdmin</string>
+		<string>Asterisk</string>
+		<string>MeetMeCount</string>
+		<string>Milliwatt</string>
+		<string>MinivmAccMess</string>
+		<string>MinivmDelete</string>
+		<string>MinivmGreet</string>
+		<string>MinivmNotify</string>
+		<string>MinivmRecord</string>
+		<string>Asterisk</string>
+		<string>Monitor</string>
+		<string>MP3Player</string>
+		<string>MSet</string>
+		<string>MusicOnHold</string>
+		<string>MYSQL</string>
+		<string>NBScat</string>
+		<string>NoCDR</string>
+		<string>NoOp</string>
+		<string>Asterisk</string>
+		<string>Originate</string>
+		<string>Page</string>
+		<string>Park</string>
+		<string>ParkAndAnnounce</string>
+		<string>ParkedCall</string>
+		<string>PauseQueueMember</string>
+		<string>Perl</string>
+		<string>PHP</string>
+		<string>Pickup</string>
+		<string>PickUP</string>
+		<string>Asterisk</string>
+		<string>Playback</string>
+		<string>Playtones</string>
+		<string>PPPD</string>
+		<string>PrivacyManager</string>
+		<string>Proceeding</string>
+		<string>Progress</string>
+		<string>Queue</string>
+		<string>Random</string>
+		<string>Read</string>
+		<string>Asterisk</string>
+		<string>ReadFile</string>
+		<string>RealTime</string>
+		<string>RealTimeUpdate</string>
+		<string>Record</string>
+		<string>RemoveQueueMember</string>
+		<string>ResetCDR</string>
+		<string>ResponseTimeout</string>
+		<string>RetryDial</string>
+		<string>Return</string>
+		<string>Ringing</string>
+		<string>Rpt</string>
+		<string>SayAlpha</string>
+		<string>Asterisk</string>
+		<string>Asterisk</string>
+		<string>SayDigits</string>
+		<string>SayNumber</string>
+		<string>SayPhonetic</string>
+		<string>SayUnixTime</string>
+		<string>SendDTMF</string>
+		<string>SendImage</string>
+		<string>SendText</string>
+		<string>SendURL</string>
+		<string>Set</string>
+		<string>SetAccount</string>
+		<string>SetAMAflags</string>
+		<string>SetCallerID</string>
+		<string>SetCallerPres</string>
+		<string>SetCDRUserField</string>
+		<string>SetCIDNum</string>
+		<string>SetGlobalVar</string>
+		<string>SetGroup</string>
+		<string>SetLanguage</string>
+		<string>SetMusicOnHold</string>
+		<string>SIPAddHeader</string>
+		<string>SIPCallPickup</string>
+		<string>SIPGetHeader</string>
+		<string>SIPdtmfMode</string>
+		<string>SMS</string>
+		<string>SoftHangup</string>
+		<string>SrxEchoCan</string>
+		<string>SrxDeflect</string>
+		<string>SrxMWI</string>
+		<string>StackPop</string>
+		<string>Steal</string>
+		<string>StopMonitor</string>
+		<string>StopMixMonitor</string>
+		<string>StopPlaytones</string>
+		<string>System</string>
+		<string>TestClient</string>
+		<string>TestServer</string>
+		<string>Transfer</string>
+		<string>TrySystem</string>
+		<string>TXTCIDName</string>
+		<string>UnpauseQueueMember</string>
+		<string>UserEvent</string>
+		<string>VMAuthenticate</string>
+		<string>Asterisk</string>
+		<string>VoiceMail</string>
+		<string>VoiceMailMain</string>
+		<string>Wait</string>
+		<string>WaitExten</string>
+		<string>WaitForRing</string>
+		<string>WaitMusicOnHold</string>
+		<string>Asterisk</string>
+		<string>While</string>
+		<string>Zapateller</string>
+	</array>
+
+</dict>
+</plist>
